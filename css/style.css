@@ -197,7 +197,7 @@ body{
 }
 
 
-/*---tabla---/*/
+/*---tablas---/*/
 
 .tabla {
     text-align: center;
@@ -222,6 +222,13 @@ tr:hover {
     background: linear-gradient(2deg,#950000 0%, #a99b00 80%);
     background: -webkit-linear-gradient(2deg,#950000 0%, #a99b00 80%);
     background: -moz-linear-gradient(2deg,#950000 0%, #a99b00 80%);
+}
+
+@media (max-width: 768px) {
+    th, td {
+    font-size: 12px;
+    padding: 4px;
+    }
 }
 
 
@@ -459,7 +466,5 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
-
 
 
