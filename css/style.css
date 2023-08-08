@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
 
 h1{
-    color: red;
+    color: white;
+    background-image: url(../img/separador.png);
 }
 
 h2 {
@@ -196,6 +197,35 @@ body{
 }
 
 
+/*---tabla---/*/
+
+.tabla {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: black;
+}
+
+tr:hover {
+    background: #950000;
+    background: linear-gradient(2deg,#950000 0%, #a99b00 80%);
+    background: -webkit-linear-gradient(2deg,#950000 0%, #a99b00 80%);
+    background: -moz-linear-gradient(2deg,#950000 0%, #a99b00 80%);
+}
+
+
+
 /*---fotos---/*/
 .fotos{
     font-family: 'Montserrat', sans-serif;
@@ -295,6 +325,12 @@ body{
 
 
 /*---tienda---/*/
+.titulo h2{
+background: none;
+
+}
+
+
 .productos h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -417,25 +453,3 @@ footer{
 
 
 
-
-
-.tabla {
-    text-align: center;
-}
-table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
-}
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
-}
-th {
-    background-color: #f30505;
-}
-
-tr:hover {
-    background-color: #e6e6e6;
-}
