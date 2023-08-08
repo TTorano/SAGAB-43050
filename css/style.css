@@ -330,3 +330,77 @@ footer{
     background-position: left;
 }
 
+
+/* Barra de navegación para móviles*/
+
+/* Estilos para la versión móvil */
+.nav-movil {
+    display: none;
+}
+
+/* Estilos para el botón de hamburguesa */
+.hamburguesa {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburguesa .linea {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: rgb(0, 0, 0); 
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none; 
+    }
+
+
+    .nav-movil {
+        display: block;
+        position: absolute;
+        top: 5vh;
+        right: 10px;
+        background-color: black; 
+        padding: 10px;
+        border-radius: 5px; 
+    }
+
+    .nav-movil ul {
+        list-style: none;
+    }
+
+    .nav-movil ul li {
+        margin-bottom: 10px;
+    }
+
+
+    .nav-movil ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .hamburguesa .linea {
+        background-color: white;
+    }
+
+    .toggle-input:checked ~ .nav-movil ul {
+        display: block;
+    }
+
+    .toggle-input:checked ~ .nav-movil .linea:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .toggle-input:checked ~ .nav-movil .linea:nth-child(2) {
+        opacity: 0;
+    }
+
+    .toggle-input:checked ~ .nav-movil .linea:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
