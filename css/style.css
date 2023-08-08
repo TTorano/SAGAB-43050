@@ -477,3 +477,27 @@ footer{
 
 
 
+#botonVerMas {
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    margin: 20px auto;
+    display: block;
+}
+#botonVerMas a{
+    text-decoration: none;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+}
+
+#botonVerMas :hover{
+    background: #950000;
+    background: linear-gradient(2deg,#950000 0%, #a99b00 80%);
+    background: -webkit-linear-gradient(2deg,#950000 0%, #a99b00 80%);
+    background: -moz-linear-gradient(2deg,#950000 0%, #a99b00 80%);
+}
