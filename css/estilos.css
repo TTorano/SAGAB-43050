@@ -43,6 +43,25 @@ body {
   justify-content: center;
   align-items: center; }
 
+.maquina-escribir {
+  position: relative; }
+
+.maquina-escribir:after {
+  content: "";
+  border-left: 3px solid white;
+  background: #ffd900;
+  right: 0;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  animation: maquinaescribir 4s 1 alternate steps(38); }
+
+@keyframes maquinaescribir {
+  from {
+    width: 100%; }
+  to {
+    width: 0; } }
+
 header {
   background-image: url("../img/header.jpg");
   background-position: center;
