@@ -1,0 +1,28 @@
+.tabla {
+    text-align: center;
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+
+        th, td {
+            font-family: 'Montserrat', sans-serif;
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: black;
+        }
+    }
+    tr{
+        &:hover {
+            background: #950000;
+            background: linear-gradient(2deg, #950000 0%, #a99b00 80%);
+            background: -webkit-linear-gradient(2deg, #950000 0%, #a99b00 80%);
+            background: -moz-linear-gradient(2deg, #950000 0%, #a99b00 80%);
+        }
+    }
+    }
