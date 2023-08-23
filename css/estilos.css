@@ -379,8 +379,8 @@ footer {
 @media (max-width: 768px) {
   .maquina-escribir:after {
     border-left: 2px solid white;
-    background: #FF0000;
-    height: 50%;
+    background: #ff1e00;
+    height: 45%;
     animation: maquinaescribir-mobile 4s 1 alternate steps(20); } }
 
 @keyframes maquinaescribir-mobile {
